@@ -1,0 +1,16 @@
+{
+  "name": "calculadora-simple",
+  "version": "1.0.0",
+  "description": "calculadora simple",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "localserver": "nodemon index.html"
+  },
+  "keywords": [
+    "calculadora"
+  ],
+  "author": "gnietto",
+  "license": "ISC",
+  "devDependencies": {}
+}

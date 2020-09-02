@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora Simple</title>
+	<link rel="stylesheet" type="text/css" href="hoja.css">
+</head>
+<body>
+	<form class="form" name="calc">		
+		<h1 class="titulo">Calculadora Simple</h1>
+		<input class="visor" type="text" name="visor" readonly="">		
+		<div class="container">		
+			<span class="boton" onclick="document.calc.visor.value +='1'"> 1 </span>
+			<span class="boton" onclick="document.calc.visor.value +='2'"> 2 </span>
+			<span class="boton" onclick="document.calc.visor.value +='3'"> 3 </span>			
+			<span class="boton" onclick="document.calc.visor.value +='+'"> + </span>		
+		
+			<span class="boton" onclick="document.calc.visor.value +='4'"> 4 </span>
+			<span class="boton" onclick="document.calc.visor.value +='5'"> 5 </span>
+			<span class="boton" onclick="document.calc.visor.value +='6'"> 6 </span>			
+			<span class="boton" onclick="document.calc.visor.value +='-'"> - </span>		
+		
+			<span class="boton" onclick="document.calc.visor.value +='7'"> 7 </span>
+			<span class="boton" onclick="document.calc.visor.value +='8'"> 8 </span>
+			<span class="boton" onclick="document.calc.visor.value +='9'"> 9 </span>			
+			<span class="boton" onclick="document.calc.visor.value +='*'"> * </span>		
+		
+			<span class="boton" onclick="document.calc.visor.value +='.'"> . </span>
+			<span class="boton" onclick="document.calc.visor.value +='0'"> 0 </span>
+			<span class="boton" onclick="document.calc.visor.value = eval(calc.visor.value)"> = </span>			
+			<span class="boton" onclick="document.calc.visor.value +='/'"> / </span>
+			<span class="boton" onclick="document.calc.visor.value =''"> C </span>			
+		</div>
+	</form>
+
+<script type="text/javascript">
+	
+</script>
+</body>
+</html>
